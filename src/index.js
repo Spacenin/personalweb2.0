@@ -8,7 +8,9 @@ import Body from "./Body.js";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
-    <Body />
+    <div className="flex flex-col">
+      <Header />
+      <Body />
+    </div>
   </React.StrictMode>
 );
