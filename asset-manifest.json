@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/personalweb2.0/static/css/main.cd909e30.css",
-    "main.js": "/personalweb2.0/static/js/main.260064c3.js",
+    "main.js": "/personalweb2.0/static/js/main.311c62d9.js",
+    "static/media/resume.pdf": "/personalweb2.0/static/media/resume.69ff319158ab24368f2a.pdf",
     "index.html": "/personalweb2.0/index.html",
     "main.cd909e30.css.map": "/personalweb2.0/static/css/main.cd909e30.css.map",
-    "main.260064c3.js.map": "/personalweb2.0/static/js/main.260064c3.js.map"
+    "main.311c62d9.js.map": "/personalweb2.0/static/js/main.311c62d9.js.map"
   },
   "entrypoints": [
     "static/css/main.cd909e30.css",
-    "static/js/main.260064c3.js"
+    "static/js/main.311c62d9.js"
   ]
 }
