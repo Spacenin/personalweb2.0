@@ -6,9 +6,7 @@ module.exports = {
       colors: {
         "custom-grey": "#335C67",
         "custom-beige": "#FFF3B0",
-        "custom-orange": "#E09F3E",
-        "custom-red": "9E2A2B",
-        "custom-darkred": "#540B0E",
+        "custom-beige2": "#BFB684",
         "custom-hover-nav": "#427987"
       }
     },

@@ -1,5 +1,4 @@
 import "./index.css"
-// import pdf from "./resume.pdf"
 
 //Header that displays navbar and other information at top of screen, like a header do
 export default function Header() {

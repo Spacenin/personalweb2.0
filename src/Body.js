@@ -3,9 +3,20 @@ import "./index.css"
 export default function Body() {
     return(
         <div className="flex flex-col">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed turpis tincidunt id aliquet risus feugiat in. Sed sed risus pretium quam. Orci dapibus ultrices in iaculis nunc sed. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Placerat orci nulla pellentesque dignissim enim sit amet. Nisl condimentum id venenatis a. At auctor urna nunc id cursus metus aliquam eleifend. Massa sed elementum tempus egestas sed sed risus pretium quam. Odio ut enim blandit volutpat. Diam volutpat commodo sed egestas. Tempor orci eu lobortis elementum nibh tellus molestie nunc. Eget lorem dolor sed viverra ipsum nunc aliquet. Faucibus interdum posuere lorem ipsum dolor sit. Tincidunt arcu non sodales neque. Cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo. Est lorem ipsum dolor sit amet. Dolor sit amet consectetur adipiscing elit. Urna et pharetra pharetra massa massa ultricies mi quis.
-            </p>
+            <div className="flex flex-row">
+                <img className="flex w-1/4 m-8 rounded" src={process.env.PUBLIC_URL + "/headshot.jpg"}></img>
+                <div className="flex flex-col m-8">
+                    <div className="flex flex-row w-full">
+                        <h1 className="flex px-4 py-1 align-bottom font-bold text-2xl bg-custom-beige2 rounded-t-lg">About Me</h1>
+                    </div>
+                    <p className="flex bg-custom-beige2 text-lg font-medium rounded-tr rounded-bl rounded-br p-5 h-full">
+                        Hello world! My name is Elliot Phillips and I am a 22-year-old Computer Science Major at Clemson University.
+                        I am from Inman SC, and hope to use my knowledge to pursue a career in Embedded Software Development. Currently, 
+                        I am working on my undergraduate Bachelor's of Science degree until May 2024, when I will graduate and start my
+                        graduate degree of Master's of Science in Computer Science.
+                    </p>
+                </div>
+            </div>
         </div>
     );
 }
